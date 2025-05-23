@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "950e9ffbb52ad20e",
@@ -186,6 +185,9 @@
   },
   "active": "01874e65da6b774e",
   "lastOpenFiles": [
+    "Architecture.md",
+    "FT2232H PHY and PLL Filtering.md",
+    "TODO.md",
     "attachments/Pasted image 20250521205545.png",
     "attachments/Pasted image 20250521205129.png",
     "attachments/Pasted image 20250521203935.png",
@@ -193,9 +195,6 @@
     "Pasted image 20250521203612.png",
     "Pasted image 20250506191903.png",
     "Pasted image 20250506192356.png",
-    "Architecture.md",
-    "FT2232H PHY and PLL Filtering.md",
-    "Pasted image 20250521203604.png",
-    "TODO.md"
+    "Pasted image 20250521203604.png"
   ]
 }

@@ -1,7 +1,7 @@
 Create architecture - done
-Create symbols
-Create footprints
-Create schematic
+Create symbols - done
+Create footprints - done
+Create schematic - in progress
 Review schematic
 Create layout
 Review layout
