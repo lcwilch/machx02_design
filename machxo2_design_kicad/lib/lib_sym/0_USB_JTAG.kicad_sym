@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "0_USB_JTAG:kicad_QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm"
-			(at 0 0 0)
+			(at 0 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +582,7 @@
 		(symbol "FT2232H-56Q_4_1"
 			(rectangle
 				(start -11.43 12.7)
-				(end 10.16 -12.7)
+				(end 10.16 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -592,7 +592,7 @@
 				)
 			)
 			(text "MPSSE Ch A"
-				(at -0.254 -11.684 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -779,26 +779,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 5.08 180)
-				(length 3.81)
-				(name "TDO/DI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 13.97 2.54 180)
+				(at 13.97 5.08 180)
 				(length 3.81)
 				(name "TMS/CS"
 					(effects
@@ -815,8 +797,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at 13.97 1.27 180)
+				(length 3.81)
+				(name "TDO/DI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 13.97 -1.27 180)
+				(at 13.97 -2.54 180)
 				(length 3.81)
 				(name "GPIOL0"
 					(effects
@@ -834,7 +834,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -3.81 180)
+				(at 13.97 -5.08 180)
 				(length 3.81)
 				(name "GPIOL1"
 					(effects
@@ -852,7 +852,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -6.35 180)
+				(at 13.97 -7.62 180)
 				(length 3.81)
 				(name "GPIOL2"
 					(effects
@@ -870,7 +870,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -8.89 180)
+				(at 13.97 -10.16 180)
 				(length 3.81)
 				(name "GPIOL3"
 					(effects
@@ -890,8 +890,8 @@
 		)
 		(symbol "FT2232H-56Q_5_1"
 			(rectangle
-				(start -10.16 12.7)
-				(end 11.43 -12.7)
+				(start -11.43 12.7)
+				(end 10.16 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -901,7 +901,7 @@
 				)
 			)
 			(text "MPSSE Ch B"
-				(at 1.016 -11.684 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -909,7 +909,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 10.16 0)
+				(at -15.24 10.16 0)
 				(length 3.81)
 				(name "GPIOH0"
 					(effects
@@ -927,7 +927,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 7.62 0)
+				(at -15.24 7.62 0)
 				(length 3.81)
 				(name "GPIOH1"
 					(effects
@@ -945,7 +945,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 5.08 0)
+				(at -15.24 5.08 0)
 				(length 3.81)
 				(name "GPIOH2"
 					(effects
@@ -963,7 +963,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 2.54 0)
+				(at -15.24 2.54 0)
 				(length 3.81)
 				(name "GPIOH3"
 					(effects
@@ -981,7 +981,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 0 0)
+				(at -15.24 0 0)
 				(length 3.81)
 				(name "GPIOH4"
 					(effects
@@ -999,7 +999,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -2.54 0)
+				(at -15.24 -2.54 0)
 				(length 3.81)
 				(name "GPIOH5"
 					(effects
@@ -1017,7 +1017,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -5.08 0)
+				(at -15.24 -5.08 0)
 				(length 3.81)
 				(name "GPIOH6"
 					(effects
@@ -1035,7 +1035,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -7.62 0)
+				(at -15.24 -7.62 0)
 				(length 3.81)
 				(name "GPIOH7"
 					(effects
@@ -1053,7 +1053,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 10.16 180)
+				(at 13.97 10.16 180)
 				(length 3.81)
 				(name "TCK/SK"
 					(effects
@@ -1071,7 +1071,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 7.62 180)
+				(at 13.97 7.62 180)
 				(length 3.81)
 				(name "TDI/DO"
 					(effects
@@ -1088,26 +1088,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 5.08 180)
-				(length 3.81)
-				(name "TDO/DI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 15.24 2.54 180)
+				(at 13.97 5.08 180)
 				(length 3.81)
 				(name "TMS/CS"
 					(effects
@@ -1124,8 +1106,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at 13.97 1.27 180)
+				(length 3.81)
+				(name "TDO/DI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 15.24 -1.27 180)
+				(at 13.97 -2.54 180)
 				(length 3.81)
 				(name "GPIOL0"
 					(effects
@@ -1143,7 +1143,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -3.81 180)
+				(at 13.97 -5.08 180)
 				(length 3.81)
 				(name "GPIOL1"
 					(effects
@@ -1161,7 +1161,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -6.35 180)
+				(at 13.97 -7.62 180)
 				(length 3.81)
 				(name "GPIOL2"
 					(effects
@@ -1179,7 +1179,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -8.89 180)
+				(at 13.97 -10.16 180)
 				(length 3.81)
 				(name "GPIOL3"
 					(effects

@@ -12,9 +12,9 @@
 	)
 	(lib_symbols)
 	(arc
-		(start 151.11 124.44)
-		(mid 152.0051 124.8149)
-		(end 152.38 125.71)
+		(start 156.19 105.37)
+		(mid 157.0851 105.7449)
+		(end 157.46 106.64)
 		(stroke
 			(width 0)
 			(type default)
@@ -25,9 +25,9 @@
 		(uuid 055071ba-7216-47dc-af92-e615f4e56e85)
 	)
 	(arc
-		(start 257.83 255.25)
-		(mid 259.6202 255.9998)
-		(end 260.37 257.79)
+		(start 276.88 257.79)
+		(mid 278.6702 258.5398)
+		(end 279.42 260.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -38,9 +38,9 @@
 		(uuid 34554591-ccdb-4297-aba5-c371232f1af6)
 	)
 	(arc
-		(start 261.64 267.95)
-		(mid 260.7449 267.5751)
-		(end 260.37 266.68)
+		(start 280.69 267.95)
+		(mid 279.7949 267.5751)
+		(end 279.42 266.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -51,9 +51,9 @@
 		(uuid 3d84e99b-e956-4efa-b5c3-cfa077922cec)
 	)
 	(arc
-		(start 257.81 85.09)
-		(mid 256.9149 84.7151)
-		(end 256.54 83.82)
+		(start 262.89 85.09)
+		(mid 261.9949 84.7151)
+		(end 261.62 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -64,9 +64,9 @@
 		(uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
 	)
 	(arc
-		(start 260.37 278.11)
-		(mid 259.6261 279.9061)
-		(end 257.83 280.65)
+		(start 279.42 275.57)
+		(mid 278.6761 277.3661)
+		(end 276.88 278.11)
 		(stroke
 			(width 0)
 			(type default)
@@ -77,9 +77,9 @@
 		(uuid 62027f87-3845-4c9e-9b75-38c266e2a856)
 	)
 	(arc
-		(start 152.38 97.79)
-		(mid 153.1298 95.9998)
-		(end 154.92 95.25)
+		(start 157.46 97.79)
+		(mid 158.2098 95.9998)
+		(end 160 95.25)
 		(stroke
 			(width 0)
 			(type default)
@@ -90,9 +90,9 @@
 		(uuid 73f6865c-4f24-4b13-a9e7-cf8bfa00ee32)
 	)
 	(arc
-		(start 256.54 86.36)
-		(mid 256.9149 85.4649)
-		(end 257.81 85.09)
+		(start 261.62 86.36)
+		(mid 261.9949 85.4649)
+		(end 262.89 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -103,9 +103,9 @@
 		(uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
 	)
 	(arc
-		(start 154.92 156.21)
-		(mid 153.1239 155.4661)
-		(end 152.38 153.67)
+		(start 160 115.55)
+		(mid 158.2039 114.8061)
+		(end 157.46 113.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -116,9 +116,9 @@
 		(uuid a8227c96-ad98-472e-856e-98a46a3c9121)
 	)
 	(arc
-		(start 152.38 123.17)
-		(mid 152.0051 124.0651)
-		(end 151.11 124.44)
+		(start 157.46 104.1)
+		(mid 157.0851 104.9951)
+		(end 156.19 105.37)
 		(stroke
 			(width 0)
 			(type default)
@@ -129,9 +129,9 @@
 		(uuid cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e)
 	)
 	(arc
-		(start 260.37 269.22)
-		(mid 260.7449 268.3249)
-		(end 261.64 267.95)
+		(start 279.42 269.22)
+		(mid 279.7949 268.3249)
+		(end 280.69 267.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -142,9 +142,9 @@
 		(uuid cd658d25-70dc-4223-a33c-3459a2ea02b4)
 	)
 	(arc
-		(start 254 53.34)
-		(mid 255.7961 54.0839)
-		(end 256.54 55.88)
+		(start 259.08 53.34)
+		(mid 260.8761 54.0839)
+		(end 261.62 55.88)
 		(stroke
 			(width 0)
 			(type default)
@@ -155,9 +155,9 @@
 		(uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
 	)
 	(arc
-		(start 256.54 113.03)
-		(mid 255.7902 114.8202)
-		(end 254 115.57)
+		(start 261.62 113.03)
+		(mid 260.8702 114.8202)
+		(end 259.08 115.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -169,8 +169,8 @@
 	)
 	(text_box "Example"
 		(exclude_from_sim no)
-		(at 261.62 265.43 0)
-		(size 35.56 5.1)
+		(at 280.67 265.43 0)
+		(size 17.78 5.1)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -192,7 +192,7 @@
 	)
 	(text_box "Lattice MachX02 FPGA"
 		(exclude_from_sim no)
-		(at 257.81 82.55 0)
+		(at 262.89 82.55 0)
 		(size 37.465 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -238,7 +238,7 @@
 	)
 	(text_box "FTDI2232H USB-JTAG"
 		(exclude_from_sim no)
-		(at 115.57 121.92 0)
+		(at 120.65 102.85 0)
 		(size 35.56 5.1)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -261,7 +261,7 @@
 	)
 	(polyline
 		(pts
-			(xy 256.54 86.36) (xy 256.54 113.03)
+			(xy 261.62 86.36) (xy 261.62 113.03)
 		)
 		(stroke
 			(width 0)
@@ -271,7 +271,7 @@
 	)
 	(polyline
 		(pts
-			(xy 256.54 83.82) (xy 256.54 55.88)
+			(xy 261.62 83.82) (xy 261.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -281,7 +281,7 @@
 	)
 	(polyline
 		(pts
-			(xy 152.4 97.81) (xy 152.4 123.19)
+			(xy 157.48 97.81) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -291,7 +291,7 @@
 	)
 	(polyline
 		(pts
-			(xy 260.35 269.24) (xy 260.35 278.13)
+			(xy 279.4 269.24) (xy 279.4 275.59)
 		)
 		(stroke
 			(width 0)
@@ -301,7 +301,7 @@
 	)
 	(polyline
 		(pts
-			(xy 260.35 257.81) (xy 260.35 266.7)
+			(xy 279.4 260.35) (xy 279.4 266.7)
 		)
 		(stroke
 			(width 0)
@@ -311,7 +311,7 @@
 	)
 	(polyline
 		(pts
-			(xy 152.4 125.75) (xy 152.4 153.69)
+			(xy 157.48 106.68) (xy 157.48 113.03)
 		)
 		(stroke
 			(width 0)
@@ -320,7 +320,7 @@
 		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
 	)
 	(sheet
-		(at 158.75 53.34)
+		(at 163.83 53.34)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -335,8 +335,8 @@
 			(color 132 0 0 1.0000)
 		)
 		(uuid "30831636-a8b2-4928-810c-6cf1a6064282")
-		(property "Sheetname" "USB Power"
-			(at 158.75 52.3109 0)
+		(property "Sheetname" "USB Power & PoL"
+			(at 163.83 52.3109 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -345,8 +345,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB Power.kicad_sch"
-			(at 158.75 74.2446 0)
+		(property "Sheetfile" "USB Power & PoL.kicad_sch"
+			(at 163.83 74.2446 0)
 			(effects
 				(font
 					(face "Arial")
@@ -364,7 +364,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 53.34)
+		(at 218.44 53.34)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -379,8 +379,8 @@
 			(color 204 102 0 1.0000)
 		)
 		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
-		(property "Sheetname" "FPGA Decoupling"
-			(at 213.36 52.3109 0)
+		(property "Sheetname" "FPGA Power & Decoupling"
+			(at 218.44 52.3109 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -389,8 +389,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FPGA Decoupling.kicad_sch"
-			(at 213.36 74.2446 0)
+		(property "Sheetfile" "FPGA Power & Decoupling.kicad_sch"
+			(at 218.44 74.2446 0)
 			(effects
 				(font
 					(face "Arial")
@@ -408,7 +408,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 95.25)
+		(at 218.44 95.25)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -424,7 +424,7 @@
 		)
 		(uuid "899734d4-d353-4f99-98f6-7ef8411499a0")
 		(property "Sheetname" "FPGA IO"
-			(at 213.36 94.2209 0)
+			(at 218.44 94.2209 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -434,7 +434,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA IO.kicad_sch"
-			(at 213.36 116.1546 0)
+			(at 218.44 116.1546 0)
 			(effects
 				(font
 					(face "Arial")
@@ -452,7 +452,7 @@
 		)
 	)
 	(sheet
-		(at 218.44 256.54)
+		(at 237.49 257.81)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -467,8 +467,8 @@
 			(color 255 200 0 0.5020)
 		)
 		(uuid "c32d721c-8719-46bb-93a1-28356e87d679")
-		(property "Sheetname" "Section Example - Title Example"
-			(at 218.44 255.5109 0)
+		(property "Sheetname" "Section Seed - Title Seed"
+			(at 237.49 256.7809 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -477,8 +477,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section Example - Title Example.kicad_sch"
-			(at 218.44 277.4446 0)
+		(property "Sheetfile" "Section Seed - Title Seed.kicad_sch"
+			(at 237.49 278.7146 0)
 			(effects
 				(font
 					(face "Arial")
@@ -496,7 +496,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 135.89)
+		(at 163.83 95.25)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -511,8 +511,8 @@
 			(color 132 0 132 1.0000)
 		)
 		(uuid "d4a2a160-9ca2-4e28-a23e-09c67e24cf41")
-		(property "Sheetname" "Debug Power, Config, & USB"
-			(at 158.75 134.8609 0)
+		(property "Sheetname" "Debug"
+			(at 163.83 94.2209 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -521,52 +521,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Debug Power, Config, & USB.kicad_sch"
-			(at 158.75 156.7946 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "machxo2_design_kicad"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 158.75 95.25)
-		(size 36.83 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 132 0 1.0000)
-		)
-		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
-		(property "Sheetname" "Debug IO"
-			(at 158.75 94.2209 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Debug IO.kicad_sch"
-			(at 158.75 116.1546 0)
+		(property "Sheetfile" "Debug.kicad_sch"
+			(at 163.83 116.1546 0)
 			(effects
 				(font
 					(face "Arial")

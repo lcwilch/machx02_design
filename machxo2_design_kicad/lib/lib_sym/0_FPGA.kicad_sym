@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "0_FPGA:kicad_QFN-32-1EP_5x5mm_P0.5mm_EP3.2x3.2mm"
-			(at 0 0 0)
+			(at -0.508 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,14 +336,14 @@
 			(pin input line
 				(at -12.7 7.62 0)
 				(length 2.54)
-				(name "TMS/PT7B"
+				(name "JTAGENB/PT9A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "29"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -352,7 +352,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 5.08 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "TCK/PT7A"
 					(effects
@@ -370,7 +370,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "TDI/PT6D"
 					(effects
@@ -388,16 +388,16 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
-				(name "JTAGENB/PT9A"
+				(name "TMS/PT7B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -405,8 +405,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -1.27 180)
+			(pin output line
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "TDO/PT6C"
 					(effects

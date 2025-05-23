@@ -57,6 +57,15 @@
 - Symbol - Done (created from scratch)
 - Footprint - Done (copied from default lib)
 - 3D - Done (grabbed from digikey)
+
+##### USBLC6 USB2.0 TVS Array
+- Use USBLC6-2SC6 (SOT23 package)
+- https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559
+- $0.36
+- Symbol - Done (copied from KiCad)
+- Footprint - Done (copied from KiCad)
+- 3D - Done (copied from KiCad)
+
 ## Power
 #### eFuse
 - Use TI TPS259474LPPWR (10-pin VQFN)

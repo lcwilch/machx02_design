@@ -780,17 +780,6 @@
 			(checksum "348124DCD35E2F4DD6265F8CA27D8177")
 		)
 	)
-	(model "/home/lcwilch/projects/machxo2_design/datasheets/usb_jtag/USBLC6-2SC6/SOT-23-6.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "kicad-embed://SOT-23-6.step"
 		(offset
 			(xyz 0 0 0)

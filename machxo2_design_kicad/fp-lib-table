@@ -9,4 +9,6 @@
   (lib (name "0_Inductor")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Inductor.pretty")(options "")(descr ""))
   (lib (name "0_USB_JTAG")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_USB_JTAG.pretty")(options "")(descr ""))
   (lib (name "0_Oscillator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Oscillator.pretty")(options "")(descr ""))
+  (lib (name "0_LED")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_LED.pretty")(options "")(descr ""))
+  (lib (name "0_FET")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_FET.pretty")(options "")(descr ""))
 )

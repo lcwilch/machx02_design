@@ -4421,7 +4421,7 @@
 			)
 		)
 		(property "Footprint" "0_TVS_Diode:SOT-23-6"
-			(at 1.016 -6.731 0)
+			(at 3.048 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,6 +4443,15 @@
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23"
 			(at 0.762 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559"
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
