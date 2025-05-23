@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0_Digital_Isolators")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_Digital_Isolators.kicad_sym")(options "")(descr ""))
+  (lib (name "0_eFuse")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_eFuse.kicad_sym")(options "")(descr ""))
+  (lib (name "0_FPGA")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_FPGA.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Power_Rails")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_Power_Rails.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Switching_Converters")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_Switching_Converters.kicad_sym")(options "")(descr ""))
+  (lib (name "0_USB_C_Receptacle")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_USB_C_Receptacle.kicad_sym")(options "")(descr ""))
+  (lib (name "0_TVS_Diode")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_TVS_Diode.kicad_sym")(options "")(descr ""))
+  (lib (name "0_USB_JTAG")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_USB_JTAG.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Oscillator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_Oscillator.kicad_sym")(options "")(descr ""))
+)

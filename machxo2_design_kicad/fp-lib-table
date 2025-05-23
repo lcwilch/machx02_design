@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "0_USB_C_Receptacle")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_USB_C_Receptacle.pretty")(options "")(descr ""))
+  (lib (name "0_Digital_Isolators")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Digital_Isolators.pretty")(options "")(descr ""))
+  (lib (name "0_eFuse")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_eFuse.pretty")(options "")(descr ""))
+  (lib (name "0_FPGA")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_FPGA.pretty")(options "")(descr ""))
+  (lib (name "0_TVS_Diode")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_TVS_Diode.pretty")(options "")(descr ""))
+  (lib (name "0_Switching_Converters")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Switching_Converters.pretty")(options "")(descr ""))
+  (lib (name "0_Inductor")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Inductor.pretty")(options "")(descr ""))
+  (lib (name "0_USB_JTAG")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_USB_JTAG.pretty")(options "")(descr ""))
+  (lib (name "0_Oscillator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Oscillator.pretty")(options "")(descr ""))
+)

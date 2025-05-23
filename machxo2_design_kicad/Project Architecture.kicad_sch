@@ -1,0 +1,586 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "43756dca-f8f6-4179-bbe2-5af9585c666d")
+	(paper "A3")
+	(title_block
+		(title "Project Architecture")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(arc
+		(start 151.11 124.44)
+		(mid 152.0051 124.8149)
+		(end 152.38 125.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 055071ba-7216-47dc-af92-e615f4e56e85)
+	)
+	(arc
+		(start 257.83 255.25)
+		(mid 259.6202 255.9998)
+		(end 260.37 257.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34554591-ccdb-4297-aba5-c371232f1af6)
+	)
+	(arc
+		(start 261.64 267.95)
+		(mid 260.7449 267.5751)
+		(end 260.37 266.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d84e99b-e956-4efa-b5c3-cfa077922cec)
+	)
+	(arc
+		(start 257.81 85.09)
+		(mid 256.9149 84.7151)
+		(end 256.54 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
+	)
+	(arc
+		(start 260.37 278.11)
+		(mid 259.6261 279.9061)
+		(end 257.83 280.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 62027f87-3845-4c9e-9b75-38c266e2a856)
+	)
+	(arc
+		(start 152.38 97.79)
+		(mid 153.1298 95.9998)
+		(end 154.92 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73f6865c-4f24-4b13-a9e7-cf8bfa00ee32)
+	)
+	(arc
+		(start 256.54 86.36)
+		(mid 256.9149 85.4649)
+		(end 257.81 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
+	)
+	(arc
+		(start 154.92 156.21)
+		(mid 153.1239 155.4661)
+		(end 152.38 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8227c96-ad98-472e-856e-98a46a3c9121)
+	)
+	(arc
+		(start 152.38 123.17)
+		(mid 152.0051 124.0651)
+		(end 151.11 124.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e)
+	)
+	(arc
+		(start 260.37 269.22)
+		(mid 260.7449 268.3249)
+		(end 261.64 267.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cd658d25-70dc-4223-a33c-3459a2ea02b4)
+	)
+	(arc
+		(start 254 53.34)
+		(mid 255.7961 54.0839)
+		(end 256.54 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
+	)
+	(arc
+		(start 256.54 113.03)
+		(mid 255.7902 114.8202)
+		(end 254 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8a608aa-d710-4d73-9273-2b52adac6230)
+	)
+	(text_box "Example"
+		(exclude_from_sim no)
+		(at 261.62 265.43 0)
+		(size 35.56 5.1)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "00d904fd-eb4b-43f2-9fd5-245af8774fa7")
+	)
+	(text_box "Lattice MachX02 FPGA"
+		(exclude_from_sim no)
+		(at 257.81 82.55 0)
+		(size 37.465 5.08)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "51bc3fdc-86f1-4742-b7d8-53f1faaab343")
+	)
+	(text_box "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 144.78 20.32 0)
+		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
+	)
+	(text_box "FTDI2232H USB-JTAG"
+		(exclude_from_sim no)
+		(at 115.57 121.92 0)
+		(size 35.56 5.1)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "ea2adac5-d133-46b2-a7ff-14a70e2ad344")
+	)
+	(polyline
+		(pts
+			(xy 256.54 86.36) (xy 256.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3c70a2-22df-46ef-a52f-0f821498dc0c")
+	)
+	(polyline
+		(pts
+			(xy 256.54 83.82) (xy 256.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41045457-e885-4cf4-93f2-cdba80791e7b")
+	)
+	(polyline
+		(pts
+			(xy 152.4 97.81) (xy 152.4 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f799f7d-3b4c-429a-be80-1688600486e9")
+	)
+	(polyline
+		(pts
+			(xy 260.35 269.24) (xy 260.35 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8d43b1-9f79-418c-96c2-ca692d7c76c3")
+	)
+	(polyline
+		(pts
+			(xy 260.35 257.81) (xy 260.35 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7123228-7989-4221-b18c-76cb16eb5e84")
+	)
+	(polyline
+		(pts
+			(xy 152.4 125.75) (xy 152.4 153.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
+	)
+	(sheet
+		(at 158.75 53.34)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 0 0 1.0000)
+		)
+		(uuid "30831636-a8b2-4928-810c-6cf1a6064282")
+		(property "Sheetname" "USB Power"
+			(at 158.75 52.3109 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB Power.kicad_sch"
+			(at 158.75 74.2446 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "machxo2_design_kicad"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 53.34)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 204 102 0 1.0000)
+		)
+		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
+		(property "Sheetname" "FPGA Decoupling"
+			(at 213.36 52.3109 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA Decoupling.kicad_sch"
+			(at 213.36 74.2446 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "machxo2_design_kicad"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 95.25)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 132 1.0000)
+		)
+		(uuid "899734d4-d353-4f99-98f6-7ef8411499a0")
+		(property "Sheetname" "FPGA IO"
+			(at 213.36 94.2209 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA IO.kicad_sch"
+			(at 213.36 116.1546 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "machxo2_design_kicad"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 256.54)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "c32d721c-8719-46bb-93a1-28356e87d679")
+		(property "Sheetname" "Section Example - Title Example"
+			(at 218.44 255.5109 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Section Example - Title Example.kicad_sch"
+			(at 218.44 277.4446 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "machxo2_design_kicad"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 135.89)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 0 132 1.0000)
+		)
+		(uuid "d4a2a160-9ca2-4e28-a23e-09c67e24cf41")
+		(property "Sheetname" "Debug Power, Config, & USB"
+			(at 158.75 134.8609 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug Power, Config, & USB.kicad_sch"
+			(at 158.75 156.7946 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "machxo2_design_kicad"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 95.25)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 1.0000)
+		)
+		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
+		(property "Sheetname" "Debug IO"
+			(at 158.75 94.2209 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug IO.kicad_sch"
+			(at 158.75 116.1546 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "machxo2_design_kicad"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "7")
+				)
+			)
+		)
+	)
+)
