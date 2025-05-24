@@ -124,7 +124,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
@@ -137,7 +137,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.55,
         "solder_mask_clearance": 0.0,
@@ -230,10 +230,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.55,
-          "drill": 0.25
         },
         {
           "diameter": 0.6,
@@ -540,15 +536,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.6,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -585,8 +580,8 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.156,
-        "via_diameter": 0.55,
-        "via_drill": 0.25
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -648,22 +643,25 @@
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgb(0, 0, 0)",
         "priority": 11,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
+        "diff_pair_gap": 0.3,
+        "diff_pair_width": 0.174,
         "name": "USB2.0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.193,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -714,15 +712,19 @@
       },
       {
         "netclass": "USB2.0",
-        "pattern": "*USB_DP*"
+        "pattern": "*USB_*D-*"
       },
       {
         "netclass": "USB2.0",
-        "pattern": "*USB_DM*"
+        "pattern": "*USB_*D+*"
       },
       {
         "netclass": "50ohm",
         "pattern": "*JTAG_*"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": "*CLK_12M*"
       }
     ]
   },
