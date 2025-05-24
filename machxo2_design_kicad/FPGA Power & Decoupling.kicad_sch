@@ -32,7 +32,7 @@
 				)
 			)
 			(property "Footprint" "0_FPGA:kicad_QFN-32-1EP_5x5mm_P0.5mm_EP3.2x3.2mm"
-				(at 0 0 0)
+				(at -0.508 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -345,14 +345,14 @@
 				(pin input line
 					(at -12.7 7.62 0)
 					(length 2.54)
-					(name "TMS/PT7B"
+					(name "JTAGENB/PT9A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "29"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -361,7 +361,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 5.08 0)
+					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "TCK/PT7A"
 						(effects
@@ -379,7 +379,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 2.54 0)
+					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "TDI/PT6D"
 						(effects
@@ -397,16 +397,16 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -5.08 0)
+					(at -12.7 -1.27 0)
 					(length 2.54)
-					(name "JTAGENB/PT9A"
+					(name "TMS/PT7B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "26"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -414,8 +414,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 13.97 -1.27 180)
+				(pin output line
+					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "TDO/PT6C"
 						(effects
@@ -39861,7 +39861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 142.24 0)
 			(effects
 				(font
@@ -39879,7 +39879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 209.55 138.43 0)
 			(effects
 				(font
@@ -39908,6 +39908,24 @@
 				(justify left)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3fc1aede-dba7-412b-a005-ed7f5118c684")
 		)
@@ -39933,7 +39951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fdf6620-38ce-4ce6-a9bc-113416d8e7f8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0125"
 			(at 164.084 161.29 0)
 			(effects
 				(font
@@ -39985,7 +40003,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -40018,7 +40036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.4152 116.84 0)
 			(effects
 				(font
@@ -40036,7 +40054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 171.45 113.03 0)
 			(effects
 				(font
@@ -40063,6 +40081,24 @@
 					(color 0 0 194 1)
 				)
 				(justify left)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -40107,7 +40143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 116.84 0)
 			(effects
 				(font
@@ -40125,7 +40161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 209.55 113.03 0)
 			(effects
 				(font
@@ -40152,6 +40188,24 @@
 					(color 0 0 194 1)
 				)
 				(justify left)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -40196,7 +40250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.4152 170.18 0)
 			(effects
 				(font
@@ -40214,7 +40268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 171.45 166.37 0)
 			(effects
 				(font
@@ -40241,6 +40295,24 @@
 					(color 0 0 194 1)
 				)
 				(justify left)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A106ME11D/12091056"
+			(at 171.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A106ME11D"
+			(at 171.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -40285,7 +40357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.1152 116.84 0)
 			(effects
 				(font
@@ -40303,7 +40375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 184.15 113.03 0)
 			(effects
 				(font
@@ -40332,6 +40404,24 @@
 				(justify left)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "720612b7-e88e-4063-85ab-3f7f644ebb78")
 		)
@@ -40357,7 +40447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b613bb7-20a4-451d-93b4-8b830eb559f9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0124"
 			(at 171.45 177.8 0)
 			(effects
 				(font
@@ -40408,7 +40498,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -40441,7 +40531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.4152 142.24 0)
 			(effects
 				(font
@@ -40459,7 +40549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 171.45 138.43 0)
 			(effects
 				(font
@@ -40486,6 +40576,24 @@
 					(color 0 0 194 1)
 				)
 				(justify left)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -40530,7 +40638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.1152 142.24 0)
 			(effects
 				(font
@@ -40548,7 +40656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -40577,6 +40685,24 @@
 				(justify left)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce159d07-8ad9-4c14-bcc1-744710f964d6")
 		)
@@ -40602,7 +40728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1ed94ff-25fe-425d-ba5a-5c3335dbdff4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0119"
 			(at 232.41 162.56 0)
 			(effects
 				(font
@@ -40653,7 +40779,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -40714,8 +40840,17 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/lattice-semiconductor-corporation/LCMXO2-256HC-4SG32C/3232671?s=N4IgTCBcDaIDYGMC2APA9mAtGArANgAsFMAWAZwHMBmMBEAXQF8g"
+		(property "Link" "https://www.digikey.com/en/products/detail/lattice-semiconductor-corporation/lcmxo2-256hc-4sg32c/3232671"
 			(at 249.174 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LCMXO2-256HC-4SG32C"
+			(at 247.65 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40841,7 +40976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a0a98a-af33-4ea6-839d-0dde2e7dec4e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0121"
 			(at 225.044 121.92 0)
 			(effects
 				(font
@@ -40893,7 +41028,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -40926,7 +41061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.8152 142.24 0)
 			(effects
 				(font
@@ -40944,7 +41079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 196.85 138.43 0)
 			(effects
 				(font
@@ -40971,6 +41106,24 @@
 					(color 0 0 194 1)
 				)
 				(justify left)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 196.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 196.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -41015,7 +41168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.8152 116.84 0)
 			(effects
 				(font
@@ -41033,7 +41186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 196.85 113.03 0)
 			(effects
 				(font
@@ -41062,6 +41215,24 @@
 				(justify left)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A104KA01J/2610841"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A104KA01J"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b400de4f-1228-4913-a193-4a4378336f4a")
 		)
@@ -41087,7 +41258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f3accf-a300-49dd-88c8-71c290940431")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0120"
 			(at 164.084 106.68 0)
 			(effects
 				(font
@@ -41139,7 +41310,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -41155,7 +41326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de6712c4-e1a2-4453-81f7-f75ff7262d95")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0122"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -41206,7 +41377,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -41222,7 +41393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dff226b4-14d5-42cc-990c-5d3efedc8836")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0126"
 			(at 171.45 151.13 0)
 			(effects
 				(font
@@ -41273,7 +41444,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -41289,7 +41460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec869232-5ce9-4ce9-b045-2493310408e6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0123"
 			(at 164.084 132.08 0)
 			(effects
 				(font
@@ -41341,7 +41512,7 @@
 		(instances
 			(project "machxo2_design_kicad"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR?")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)

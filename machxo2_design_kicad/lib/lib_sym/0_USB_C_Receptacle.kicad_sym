@@ -402,7 +402,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -22.86 90)
 				(length 5.08)
 				(name "GND"
@@ -420,7 +420,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -22.86 90)
 				(length 5.08)
 				(hide yes)
@@ -439,7 +439,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -22.86 90)
 				(length 5.08)
 				(hide yes)
@@ -458,7 +458,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -22.86 90)
 				(length 5.08)
 				(hide yes)
@@ -477,7 +477,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(name "VBUS"
@@ -495,7 +495,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(hide yes)
@@ -514,7 +514,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(hide yes)
@@ -533,7 +533,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(hide yes)

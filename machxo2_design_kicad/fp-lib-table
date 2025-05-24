@@ -11,4 +11,5 @@
   (lib (name "0_Oscillator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Oscillator.pretty")(options "")(descr ""))
   (lib (name "0_LED")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_LED.pretty")(options "")(descr ""))
   (lib (name "0_FET")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_FET.pretty")(options "")(descr ""))
+  (lib (name "0_Capacitor")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_Capacitor.pretty")(options "")(descr ""))
 )
